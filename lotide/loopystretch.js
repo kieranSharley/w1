@@ -16,4 +16,4 @@ const loopyLighthouse = function(range, multiples, words) {
 };
 console.log(loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]));
 
-
+https://gist.github.com/kieranSharley/94a88d76e323fc40a9b636535976ca25
