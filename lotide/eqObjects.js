@@ -8,7 +8,10 @@ const eqArrays = function(arr1, arr2) {
     }
   }
   return true;
-}
+};
+
+
+
 
 const eqObjects = function(object1, object2) {
   const keys = Object.keys(object1);
