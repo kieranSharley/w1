@@ -1,8 +1,10 @@
 const tail = function(array) {
-  let newArray = array.slice(1);
-  return newArray;
+
+  let newArray = array.reverse();
+  return newArray[0];
 };
 
 
 // console.log(tail([1]));
-module.exports = tail
+// console.log(tail([1,2,3,4,5]))
+// module.exports = tail
