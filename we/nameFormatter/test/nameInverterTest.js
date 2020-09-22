@@ -20,16 +20,3 @@ describe('nameInverter()', function() {
     assert.equal(nameInverter(input), output);
   })
 });
-
-/*return an empty string when passed an empty string
-input: ""
-output: ""
-return a single name when passed a single name
-input: "name"
-output: "name"
-return a single name when passed a single name with extra spaces
-input: " name "
-output: "name"
-return a last-name, first-name when passed a first and last-name
-input: "first last"
-output: "last, first" */

@@ -20,7 +20,7 @@ const findKey = function(object, matchKey){
 console.log(findKey(egfindKey, x => x.stars === 20))
 
 
-
+module.exports = findKey;
 
 // console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
 // console.log(assertEqual(1, 1));

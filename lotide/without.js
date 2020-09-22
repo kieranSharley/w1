@@ -10,6 +10,8 @@ const without = function(array, itemsToRemove) {
   } return output;
 };
 
-console.log(without([4,5,6],[4]));
-console.log(without([1,2,3],[1]));
+module.exports = without
+
+// console.log(without([4,5,6],[4]));
+// console.log(without([1,2,3],[1]));
 
